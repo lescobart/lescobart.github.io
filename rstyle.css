@@ -1,16 +1,16 @@
 body {
 	text-align: center;
-	text-transform: uppercase;
 	color: #6F6868;
 	font-family: "ratio",sans-serif;
 }
 h1{
 	font-family: "blenny",sans-serif;
-	font-size: 60px;
+	font-size: 80px;
 	text-shadow:0px 3px 0px white;
 }
 h2{
 	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
 }
 h3{
 	font-family: "subway-new-york-sc",sans-serif;
