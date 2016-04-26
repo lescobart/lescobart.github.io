@@ -2,6 +2,7 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 	color: #6F6868;
+	font-family: "ratio",sans-serif;
 }
 h1{
 	font-family: "blenny",sans-serif;
@@ -10,6 +11,10 @@ h1{
 }
 h2{
 	font-family: 'Oswald', sans-serif;
+}
+h3{
+	font-family: "subway-new-york-sc",sans-serif;
+	font-size: 40px;
 }
 .aboutme{ 
 	padding:50px;
