@@ -20,7 +20,7 @@ h4 {
 }
 
 body {
-  background-image: url("https://static.pexels.com/photos/7132/wood-texture-trees.jpg");
+  background-image: url("https://static.pexels.com/photos/14676/pexels-photo-14676.png");
   background-size: cover;
   color: white;
       background-attachment: fixed;
@@ -64,7 +64,7 @@ body {
   a:active,
   a:link{
     text-decoration: none;
-    color: gray;
+    color: white;
   }
   
   a:hover, {
