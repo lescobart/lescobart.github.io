@@ -1,5 +1,5 @@
 body{
-font-family: "acumin-pro-extra-condensed";
+font-family: "adobe-caslon-pro";
 text-transform: capitalize;
 }
 
@@ -63,7 +63,7 @@ body {
     a:visited,
   a:active,
   a:link{
-    text-decoration: overline;
+    text-decoration: none;
     color: white;
   }
   
