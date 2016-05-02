@@ -1,25 +1,26 @@
 body{
-font-family: "museo-sans";
+font-family: "acumin-pro-extra-condensed";
+text-transform: capitalize;
 }
 
 .homepage #logo {
   font-family: "abril-display";
-  font-size: 225%;
+  font-size: 255%;
 }
 
 h4 {
-  font-family: "league-gothic";
+  font-family: "futura-pt";
   font-weight: bold;
   text-transform: uppercase;
 }
 
 #topban h2 {
-  font-family: "acumin-pro-extra-condensed";
+  font-family: "league-gothic";
   text-transform: capitalize;
 }
 
 body {
-  background-image: url("https://images.unsplash.com/photo-1429667947446-3c93a979b7e0?crop=entropy&dpr=2.5&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=40&w=1550");
+  background-image: url("https://static.pexels.com/photos/68428/pexels-photo-68428.jpeg");
   background-size: cover;
   color: white;
       background-attachment: fixed;
