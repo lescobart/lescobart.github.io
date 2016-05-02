@@ -1,5 +1,5 @@
 body{
-font-family: "adobe-caslon-pro";
+font-family: "museo-slab";
 text-transform: capitalize;
 }
 
@@ -30,7 +30,7 @@ body {
   
 
 .homepage #center .ban{
-  background-color: rgba(255,71, 0, 0.4);
+  background-color: rgba(0, 90, 255, 0.15);
   height:100%;
   margin-top: 0;
   margin-bottom: 0;
