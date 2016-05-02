@@ -37,7 +37,7 @@ body {
 }
  
  #leftbar{
-   background-color:rgba(173, 60, 27, 0.6);
+   background-color:rgba(0, 90, 255, 0.15);
    padding-top: 30px;
     padding-bottom: 30px;
  }
@@ -98,7 +98,9 @@ body {
     color: #964001;}
 
 .homepage #rightbar h5 {
-    background: #964001;
+  font-family: "futura-pt";
+  text-transform: capitalize;
+  background: #964001;
   padding-right: 5px;
   padding-left: 5px;
 }
