@@ -20,7 +20,7 @@ h4 {
 }
 
 body {
-  background-image: url("https://static.pexels.com/photos/68428/pexels-photo-68428.jpeg");
+  background-image: url("https://static.pexels.com/photos/7132/wood-texture-trees.jpg");
   background-size: cover;
   color: white;
       background-attachment: fixed;
@@ -30,14 +30,14 @@ body {
   
 
 .homepage #center .ban{
-  background-color: rgba(0, 255, 243, 0.38);
+  background-color: rgba(255,71, 0, 0.4);
   height:100%;
   margin-top: 0;
   margin-bottom: 0;
 }
  
  #leftbar{
-   background-color:rgba(0, 255, 231, 0.35);
+   background-color:rgba(173, 60, 27, 0.6);
    padding-top: 30px;
     padding-bottom: 30px;
  }
@@ -48,7 +48,7 @@ body {
  }
  
   .w1024.homepage #pagecontainer {
-    background:rgba(0,0,0,0.75);
+    background:rgba(6,56,119,0.4);
         padding-left: 20px;
           }
           
@@ -64,7 +64,7 @@ body {
   a:active,
   a:link{
     text-decoration: none;
-    color: white;
+    color: gray;
   }
   
   a:hover, {
