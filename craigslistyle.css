@@ -1,0 +1,103 @@
+body{
+font-family: "museo-sans";
+}
+
+.homepage #logo {
+  font-family: "abril-display";
+  font-size: 225%;
+}
+
+h4 {
+  font-family: "league-gothic";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#topban h2 {
+  font-family: "acumin-pro-extra-condensed";
+  text-transform: capitalize;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1429667947446-3c93a979b7e0?crop=entropy&dpr=2.5&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=40&w=1550");
+  background-size: cover;
+  color: white;
+      background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  
+
+.homepage #center .ban{
+  background-color: rgba(0, 255, 243, 0.38);
+  height:100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ 
+ #leftbar{
+   background-color:rgba(0, 255, 231, 0.35);
+   padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ 
+ .homepage #rightbar {
+      padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ 
+  .w1024.homepage #pagecontainer {
+    background:rgba(0,0,0,0.75);
+        padding-left: 20px;
+          }
+          
+          .homepage #pagecontainer{
+            padding: 0;
+          }
+  
+  .homepage .col ul{
+    background-color: transparent;
+  }
+  
+    a:visited,
+  a:active,
+  a:link{
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover, {
+      text-decoration: none;
+    color: yellow;
+  }
+  
+  .homepage footer {
+    background-color: rgb(0,0,0);
+  }
+
+.cal td {
+    background: #3C3C3C;}
+    
+    .cal td.today {
+    background: #00D0C5;}
+    
+    .homepage #postlks #post {
+    background-color: #00D0C5;}
+    
+    #topban .sublinks li {
+    background: rgb(0, 208, 197);}
+    
+    #topban .sublinks a {
+    background: transparent;}
+    
+    .homepage #rightbar h5 {
+    color: #000;}
+    
+    .linklike {
+    color: #00D0C5;}
+
+.homepage #rightbar h5 {
+    background: rgb(8, 187, 171);
+  padding-right: 5px;
+  padding-left: 5px;
+}
