@@ -3,19 +3,28 @@ body{
 }
 h1{
 	font-family: "bickham-script-pro-3";
-	color: white;
-	font-size: 8em;
+	color: #FFDCDC;
+	font-size: 10em;
+	text-shadow: 1px 1px white;
 }
 h2{
 	font-family: "madre-script";
-	color:red;
+	color:white;
+	text-shadow: 2px 2px gray;
 }
 h4{
 	font-family: "memoriampro";
 }
 h5{
-	font-family: "subway-new-york-std";
+	font-family: "fatfrank";
 	text-transform: uppercase;
+}
+#see{
+	margin-right: 50%;
+	margin-left: 50%;
+	background: transparent linear-gradient(90deg, rgba(255, 255, 255, 0.2) 10%, rgba(0, 34, 62, 0.77) 90%) repeat scroll 0% 0%;
+        height: 40px;
+    width: 20%;
 }
 
 .intro{
@@ -39,12 +48,15 @@ h5{
 	background-size: cover;
 	background-attachment: fixed;
 }
-.couple #cindy{
-	text-align: right;
+#cindy{
+	float: right;
+	background: transparent;
 }
-.couple #spencer{
-	text-align: left;
+#spencer{
 }
 p{
 	text-align: center;
+	font-size: 2em;
+	color:gray
+	text-shadow 0.1px 0px white;
 }
