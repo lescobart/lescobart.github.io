@@ -1,26 +1,50 @@
 body{
-	font-family: "acumin-pro";
+	font-family: "acumin-pro-extra-condensed";
 }
 h1{
-	font-family: "memoriampro";
+	font-family: "bickham-script-pro-3";
 	color: white;
+	font-size: 8em;
 }
+h2{
+	font-family: "madre-script";
+	color:red;
+}
+h4{
+	font-family: "memoriampro";
+}
+h5{
+	font-family: "subway-new-york-std";
+	text-transform: uppercase;
+}
+
 .intro{
 	padding: 50px;
 	background-image: url(http://1.bp.blogspot.com/-piyNdcxw1q4/VXnrhN7q5YI/AAAAAAAAL24/Z4-rhOdfgtI/s1600/Tattooed-Brides-Philadelphia-New-Jersey-6.jpg);
-	background-size: 100% 100%;
+	background-size: cover;
 	background-attachment: fixed;
-	background-repeat: no-repeat;
+	text-align: center;
 }
 .greet{
 	padding:50px;
-	background-color: white;
+
+	background-image: url(NY3dUPdown2.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+	text-align: center;
 }
 .couple{
 	padding: 50px;
-	background-image: url(http://1.bp.blogspot.com/-U3o0t2DbWYw/VXnrWxy95UI/AAAAAAAAL2A/p0jVMp-cT5Q/s1600/Tattooed-Brides-Philadelphia-New-Jersey-1.jpg);
+	background-image: url(http://1.bp.blogspot.com/-piyNdcxw1q4/VXnrhN7q5YI/AAAAAAAAL24/Z4-rhOdfgtI/s1600/Tattooed-Brides-Philadelphia-New-Jersey-6.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+}
+.couple #cindy{
+	text-align: right;
+}
+.couple #spencer{
+	text-align: left;
+}
+p{
+	text-align: center;
 }
