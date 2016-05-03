@@ -1,0 +1,26 @@
+body{
+	font-family: "acumin-pro";
+}
+h1{
+	font-family: "memoriampro";
+	color: white;
+}
+.intro{
+	padding: 50px;
+	background-image: url(http://1.bp.blogspot.com/-piyNdcxw1q4/VXnrhN7q5YI/AAAAAAAAL24/Z4-rhOdfgtI/s1600/Tattooed-Brides-Philadelphia-New-Jersey-6.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.greet{
+	padding:50px;
+	background-color: white;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.couple{
+	padding: 50px;
+	background-image: url(http://1.bp.blogspot.com/-U3o0t2DbWYw/VXnrWxy95UI/AAAAAAAAL2A/p0jVMp-cT5Q/s1600/Tattooed-Brides-Philadelphia-New-Jersey-1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
