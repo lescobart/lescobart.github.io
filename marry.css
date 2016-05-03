@@ -11,13 +11,16 @@ h2{
 	font-family: "madre-script";
 	color:white;
 	text-shadow: 2px 2px gray;
+	font-size:4em;
 }
 h4{
 	font-family: "memoriampro";
+	font-size: 2em;
 }
 h5{
 	font-family: "fatfrank";
 	text-transform: uppercase;
+	font-size:3em;
 }
 #see{
 	margin-right: 50%;
