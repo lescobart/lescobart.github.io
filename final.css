@@ -46,9 +46,12 @@ h3{
 	font-family:"museo-slab",serif;
 }
 h4{
-	font-family: "museo-slab",serif;
+	font-family: "balboa-plus-primary",sans-serif;
+	font-size: 2.5em;
 	color:black;
 	opacity:85%;
+	margin: 0px;
+
 }
 .photo1{
 	background-image: url(fabric1.jpg);
@@ -181,34 +184,86 @@ h4{
 
 
 .valueprime{
-	width:300px;
+	width:400px;
 	position:absolute;
 	background-color: rgba(116,125,125,0.5);
 	border-radius: 20px;
 	padding:5px;
-	top:500px;
+	top:300px;
+	text-align: center;
+	right:650px;
+	transition:all 3s;
+	z-index: 0;
 }
 .valuesec{
-	width:300px;
+	width:400px;
 	position:absolute;
 	background-color: rgba(116,125,125,0.5);
 	border-radius: 20px;
 	padding:5px;
-	top:500px;
+	top:300px;
+	text-align: center;
+	right:150px;
+	transition:all 3s;
+	z-index: 0;
 }
 .valuethird{
-	width:300px;
+	width:400px;
 	position:absolute;
 	background-color: rgba(116,125,125,0.5);
 	border-radius: 20px;
 	padding:5px;
 	top:500px;
+	text-align: center;
+	right:850px;
+	transition:all 3s;
+	z-index: 0;
 }
 .valuequad{
-	width:300px;
+	width:400px;
 	position:absolute;
 	background-color: rgba(116,125,125,0.5);
 	border-radius: 20px;
 	padding:5px;
 	top:500px;
+	text-align: center;
+	right:350px;
+	transition:all 3s;
+	z-index: 0;
+}
+.valueprime:hover{
+	top:410px;
+	width: 700px;
+	right:330px;
+	font-size: xx-large;
+	background-color: lightgray;
+	color:white;
+	z-index: 3;
+}
+.valuesec:hover{
+	top:410px;
+	width: 700px;
+	right:330px;
+	font-size: xx-large;
+	background-color: lightgray;
+	color:white;
+	z-index: 3;
+}
+.valuethird:hover{
+	top:410px;
+	width: 700px;
+	right:330px;
+	font-size: xx-large;
+	background-color: lightgray;
+	color:white;
+	z-index: 3;
+}
+.valuequad:hover{
+	top:410px;
+	width: 700px;
+	right:330px;
+	font-size: xx-large;
+	background-color: lightgray;
+	color:white;
+	z-index: 3;
 }
