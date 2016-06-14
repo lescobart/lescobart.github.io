@@ -37,26 +37,26 @@ h3{
 	font-family:"museo-slab",serif;
 }
 .photo1{
-	background-image: url(http://i.imgur.com/wz9MH9f.jpg);
-	background-size: 100%;
+	background-image: url(fabric1.jpg);
+	background-size: cover;
     background-repeat: no-repeat;
-    position: fixed;
+    background-attachment: fixed;
     z-index:99999;
 }	
 .photo2{
-	background-image: url(http://i.imgur.com/morkFmM.jpg);
-	background-size: 100%;
+	background-image: url(crystal.jpg);
+	background-size: cover;
     background-repeat: no-repeat;
-    position: fixed;
+    background-attachment: fixed;
 }
 .photo3{
-	background-image: url(http://i.imgur.com/REGp1fa.jpg);
-	background-size: 100%;
+	background-image: url(fabric3.jpg);
+	background-size: cover;
     background-repeat: no-repeat;
-    position: fixed;
+    background-attachment: fixed;
 }
 .photo4{
-	background-image: url(http://i.imgur.com/11DXJ2i.jpg);
+	background-image: url(crystal2.jpg);
 	background-size: 100%;
     background-repeat: no-repeat;
     position: fixed;
