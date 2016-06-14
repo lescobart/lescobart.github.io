@@ -19,19 +19,25 @@ nav{
 	background-color: black;
 	opacity: 0.5;
 	color:white;
+	z-index:9999999999;
 
 }
 h1{
 	font-family: "balboa-plus-primary",sans-serif;
 	font-size: 14em;
-	color:black;
+	color:rgba(123, 123, 123, 0.8);
 	position:absolute;
+	margin:0 auto;
+	top:500px;
+	right:143px;
 }
 h2{
 	font-family: "balboa-plus-primary",sans-serif;
 	font-size: 7em;
-	color:black;
+	color:rgba(123, 123, 123, 0.8);
 	text-align: center;
+	margin-top: 46px;
+	margin-bottom: 650px;
 }
 h3{
 	font-family:"museo-slab",serif;
@@ -66,7 +72,7 @@ h3{
 }
 .landing{
 	text-align: center;
-	min-height: 1500px;
+	min-height: 900px;
 	position:relative;
 }
 .persona{
