@@ -1,0 +1,83 @@
+body{
+	margin:0;
+}
+
+header{
+	font-family:"museo-slab",serif;
+	background-color: black;
+	opacity: 0.5;
+	color:white;
+	padding: 10px;
+	margin:0;
+	width:100%;
+	position:fixed;
+}
+
+nav{
+	float:right;
+	font-family:"museo-slab",serif;
+	background-color: black;
+	opacity: 0.5;
+	color:white;
+
+}
+h1{
+	font-family: "balboa-plus-primary",sans-serif;
+	font-size: 14em;
+	color:black;
+	text-align: center;
+}
+h2{
+	font-family: "balboa-plus-primary",sans-serif;
+	font-size: 7em;
+	color:black;
+	text-align: center;
+}
+h3{
+	font-family:"museo-slab",serif;
+}
+.photo1{
+	background-image: url(http://i.imgur.com/wz9MH9f.jpg);
+	background-size: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index:99999;
+}	
+.photo2{
+	background-image: url(http://i.imgur.com/morkFmM.jpg);
+	background-size: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+.photo3{
+	background-image: url(http://i.imgur.com/REGp1fa.jpg);
+	background-size: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+.photo4{
+	background-image: url(http://i.imgur.com/11DXJ2i.jpg);
+	background-size: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+.landing{
+	text-align: center;
+}
+.persona{
+	position: relative;
+}
+#luchobox{
+	font-family:"proxima-nova",sans-serif;
+	color:white;
+	background-color: rgba(58, 90, 76, 0.84);
+	width:500px;
+	text-align:center;
+	border-radius: 10px;
+	padding: 10px;
+	margin:0 auto;
+	position:absolute;
+	right:450px;
+	top:240px;
+	border:30px;
+}
