@@ -59,13 +59,15 @@ h3{
 }
 .photo4{
 	background-image: url(crystal2.jpg);
-	background-size: 100%;
+	background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
     min-height: 1500px;
 }
 .landing{
 	text-align: center;
+	min-height: 1500px;
+	position:relative;
 }
 .persona{
 	position: relative;
