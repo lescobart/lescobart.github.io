@@ -81,17 +81,75 @@ h3{
 .persona{
 	position: relative;
 }
+.essence{
+	position:relative;
+}
+.contact{
+	position:relative;
+}
 #luchobox{
 	font-family:"proxima-nova",sans-serif;
 	color:white;
-	background-color: rgba(58, 90, 76, 0.84);
+	background-color: rgba(116,125,125,0.64);
 	width:500px;
 	text-align:center;
 	border-radius: 10px;
 	padding: 10px;
 	margin:0 auto;
 	position:absolute;
-	right:450px;
+	right:479px;
 	top:240px;
 	border:30px;
+}
+#sustainable{
+	font-family:"proxima-nova",sans-serif;
+	color:white;
+	background-color: rgba(116,125,125,0.64);
+	width:200px;
+	text-align:center;
+	border-radius: 10px;
+	padding: 10px;
+	margin:0 auto;
+	position:absolute;
+	top:450px;
+	right:1110px;
+}
+#dream{
+	font-family:"proxima-nova",sans-serif;
+	color:white;
+	background-color: rgba(116,125,125,0.64);
+	width:200px;
+	text-align:center;
+	border-radius: 10px;
+	padding: 10px;
+	margin:0 auto;
+	position:absolute;
+	top:450px;
+	right:800px;
+}
+#art{
+	font-family:"proxima-nova",sans-serif;
+	color:white;
+	background-color: rgba(116,125,125,0.64);
+	width:200px;
+	text-align:center;
+	border-radius: 10px;
+	padding: 10px;
+	margin:0 auto;
+	position:absolute;
+	top:450px;
+	right:472px;
+}
+#functionality{
+	font-family:"proxima-nova",sans-serif;
+	color:white;
+	background-color: rgba(116,125,125,0.64);
+	width:200px;
+	text-align:center;
+	border-radius: 10px;
+	padding: 10px;
+	margin:0 auto;
+	position:absolute;
+	top:450px;
+	right:150px;
 }
