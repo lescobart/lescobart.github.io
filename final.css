@@ -41,25 +41,28 @@ h3{
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    z-index:99999;
+    min-height: 1500px;
 }	
 .photo2{
 	background-image: url(crystal.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: 1500px;
 }
 .photo3{
 	background-image: url(fabric3.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: 1500px;
 }
 .photo4{
 	background-image: url(crystal2.jpg);
 	background-size: 100%;
     background-repeat: no-repeat;
     position: fixed;
+    min-height: 1500px;
 }
 .landing{
 	text-align: center;
