@@ -45,6 +45,11 @@ h2{
 h3{
 	font-family:"museo-slab",serif;
 }
+h4{
+	font-family: "museo-slab",serif;
+	color:black;
+	opacity:85%;
+}
 .photo1{
 	background-image: url(fabric1.jpg);
 	background-size: cover;
@@ -102,7 +107,6 @@ h3{
 	border:30px;
 }
 #sustainable{
-	font-family:"proxima-nova",sans-serif;
 	color:white;
 	background-color: rgba(116,125,125,0.64);
 	width:200px;
@@ -113,11 +117,11 @@ h3{
 	position:absolute;
 	top:450px;
 	right:1110px;
+	transition:all 3s;
 }
 #dream{
-	font-family:"proxima-nova",sans-serif;
 	color:white;
-	background-color: rgba(116,125,125,0.64);
+	background-color: rgba(116,125,125,0.5);
 	width:200px;
 	text-align:center;
 	border-radius: 10px;
@@ -126,11 +130,11 @@ h3{
 	position:absolute;
 	top:450px;
 	right:800px;
+	transition:all 3s;
 }
 #art{
-	font-family:"proxima-nova",sans-serif;
 	color:white;
-	background-color: rgba(116,125,125,0.64);
+	background-color: rgba(116,125,125,0.5);
 	width:200px;
 	text-align:center;
 	border-radius: 10px;
@@ -139,11 +143,11 @@ h3{
 	position:absolute;
 	top:450px;
 	right:472px;
+	transition:all 3s;
 }
 #functionality{
-	font-family:"proxima-nova",sans-serif;
 	color:white;
-	background-color: rgba(116,125,125,0.64);
+	background-color: rgba(116,125,125,0.5);
 	width:200px;
 	text-align:center;
 	border-radius: 10px;
@@ -152,4 +156,59 @@ h3{
 	position:absolute;
 	top:450px;
 	right:150px;
+	transition:all 3s;
+}
+#dream:hover{
+	width:300px;
+	top:350px;
+	background-color:rgba (116,125,116,1);
+}
+#art:hover{
+	width:300px;
+	top:350px;
+	background-color:rgba (116,125,116,1);
+}
+#functionality:hover{
+	width:300px;
+	top:350px;
+	background-color:rgba (116,125,116,1);
+}
+#sustainable:hover{
+	width:300px;
+	top:350px;
+	background-color:rgba (116,125,116,1);
+}
+
+
+.valueprime{
+	width:300px;
+	position:absolute;
+	background-color: rgba(116,125,125,0.5);
+	border-radius: 20px;
+	padding:5px;
+	top:500px;
+}
+.valuesec{
+	width:300px;
+	position:absolute;
+	background-color: rgba(116,125,125,0.5);
+	border-radius: 20px;
+	padding:5px;
+	top:500px;
+}
+.valuethird{
+	width:300px;
+	position:absolute;
+	background-color: rgba(116,125,125,0.5);
+	border-radius: 20px;
+	padding:5px;
+	top:500px;
+}
+.valuequad{
+	width:300px;
+	position:absolute;
+	background-color: rgba(116,125,125,0.5);
+	border-radius: 20px;
+	padding:5px;
+	top:500px;
 }
