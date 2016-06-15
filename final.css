@@ -43,11 +43,7 @@ h1{
 }
 h2{
 	font-family: "balboa-plus-primary",sans-serif;
-	font-size: 7em;
-	color:rgba(123, 123, 123, 0.8);
-	text-align: center;
-	margin-top: 46px;
-}
+	font-size: 7em;}
 h3{
 	font-family:"museo-slab",serif;
 }
@@ -387,13 +383,12 @@ h4{
 	text-align: left;
 }
 
-#values{
-	margin:0 auto;
+.secname{
+	color:rgba(123, 123, 123, 0.8);
+	text-align: center;
+	margin-top: 46px;
+	margin-bottom: 650px;
 }
-
-
-
-
 
 
 
