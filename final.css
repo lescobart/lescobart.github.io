@@ -22,8 +22,12 @@ nav{
 	z-index:9999999999;
 
 }
+
+
+
 a{
 	text-decoration: none;
+	color: white;
 }
 h1{
 	font-family: "balboa-plus-primary",sans-serif;
@@ -53,6 +57,9 @@ h4{
 	margin: 0px;
 
 }
+
+
+
 .photo1{
 	background-image: url(fabric1.jpg);
 	background-size: cover;
@@ -81,20 +88,49 @@ h4{
     background-attachment: fixed;
     min-height: 1500px;
 }
+
+
+
+
 .landing{
 	text-align: center;
 	min-height: 900px;
 	position:relative;
+	background-image: url(https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/85/851/851025/poly-background-white-o.jpg?1450172776);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.2;
 }
 .persona{
 	position: relative;
+	background-image: url(https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/85/851/851025/poly-background-white-o.jpg?1450172776);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.2;
 }
 .essence{
 	position:relative;
+	background-image: url(https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/85/851/851025/poly-background-white-o.jpg?1450172776);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.2;
 }
 .contact{
 	position:relative;
+	background-image: url(https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/85/851/851025/poly-background-white-o.jpg?1450172776);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.2;
 }
+
+
+
+
+
 #luchobox{
 	font-family:"proxima-nova",sans-serif;
 	color:white;
@@ -183,13 +219,15 @@ h4{
 }
 
 
+
+
 .valueprime{
 	width:400px;
 	position:absolute;
 	background-color: rgba(116,125,125,0.5);
 	border-radius: 20px;
 	padding:5px;
-	top:300px;
+	top:150px;
 	text-align: center;
 	right:650px;
 	transition:all 3s;
@@ -201,7 +239,7 @@ h4{
 	background-color: rgba(116,125,125,0.5);
 	border-radius: 20px;
 	padding:5px;
-	top:300px;
+	top:150px;
 	text-align: center;
 	right:150px;
 	transition:all 3s;
@@ -213,7 +251,7 @@ h4{
 	background-color: rgba(116,125,125,0.5);
 	border-radius: 20px;
 	padding:5px;
-	top:500px;
+	top:300px;
 	text-align: center;
 	right:850px;
 	transition:all 3s;
@@ -225,7 +263,7 @@ h4{
 	background-color: rgba(116,125,125,0.5);
 	border-radius: 20px;
 	padding:5px;
-	top:500px;
+	top:300px;
 	text-align: center;
 	right:350px;
 	transition:all 3s;
@@ -266,4 +304,64 @@ h4{
 	background-color: lightgray;
 	color:white;
 	z-index: 3;
+}
+
+
+
+
+.name{
+	font-family: "balboa-plus-primary",sans-serif;
+	color:black;
+	position: absolute;
+	top: 150px;
+    right: 30px;
+    font-size: 5em;
+    transition:all 3s;
+}
+.phone{
+	font-family: "balboa-plus-primary",sans-serif;
+	color:black;
+	position: absolute;
+	top: 250px;
+    right: 300px;
+    font-size: 5em;
+    transition:all 3s;
+}
+.email{
+	font-family: "balboa-plus-primary",sans-serif;
+	color:black;
+	position: absolute;
+	top: 350px;
+    right: 390px;
+    font-size: 5em;
+    transition:all 3s;
+}
+.instagram{
+	font-family: "balboa-plus-primary",sans-serif;
+	color:black;
+	position: absolute;
+	top: 450px;
+    right: 921px;
+    font-size: 5em;
+    transition:all 3s;
+}
+.name:hover{
+	right:500px;
+	color: red;
+	font-size: 6em;
+}
+.phone:hover{
+	right:500px;
+	color: red;
+	font-size: 6em;
+}
+.email:hover{
+	right:500px;
+	color: red;
+	font-size: 6em;
+}
+.instagram:hover{
+	right:500px;
+	color: red;
+	font-size: 6em;
 }
