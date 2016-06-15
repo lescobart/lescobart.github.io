@@ -23,11 +23,14 @@ nav{
 
 }
 
+.todo{
+	max-height: 7100px;
+}
 
 
 a{
 	text-decoration: none;
-	color: gray;
+	color: black;
 }
 h1{
 	font-family: "balboa-plus-primary",sans-serif;
@@ -44,7 +47,6 @@ h2{
 	color:rgba(123, 123, 123, 0.8);
 	text-align: center;
 	margin-top: 46px;
-	margin-bottom: 650px;
 }
 h3{
 	font-family:"museo-slab",serif;
@@ -53,7 +55,7 @@ h4{
 	font-family: "balboa-plus-primary",sans-serif;
 	font-size: 2.5em;
 	color:black;
-	opacity:85%;
+	opacity:.85;
 	margin: 0px;
 
 }
@@ -65,7 +67,7 @@ h4{
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 1000px;
+    min-height: 900px;
     z-index: 3;
 }	
 .photo2{
@@ -73,7 +75,7 @@ h4{
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 1000px;
+    min-height: 900px;
     z-index: 3;
 }
 .photo3{
@@ -81,7 +83,7 @@ h4{
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 1000px;
+    min-height: 900px;
     z-index: 3;
 }
 .photo4{
@@ -89,7 +91,7 @@ h4{
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 900px;
+    min-height: 800px;
     z-index: 3;
     position:relative;
 }
@@ -106,7 +108,6 @@ h4{
     background-repeat: no-repeat;
     background-attachment: fixed; 
     z-index: 2;
-    opacity:0.8;
 }
 .persona{
 	position: relative;
@@ -116,7 +117,6 @@ h4{
     background-attachment: fixed;
     z-index: 2;
     min-height: 840px;
-    opacity:0.8;
 }
 .essence{
 	position:relative;
@@ -126,7 +126,6 @@ h4{
     background-attachment: fixed;
     z-index: 2;
     min-height: 840px;
-    opacity:0.8;
 }
 .contact{
 	position:relative;
@@ -136,7 +135,6 @@ h4{
     background-attachment: fixed;
     z-index: 2;
     min-height: 840px;
-    opacity:0.8;
 }
 
 
@@ -388,3 +386,14 @@ h4{
 	font-size: 9em;
 	text-align: left;
 }
+
+#values{
+	margin:0 auto;
+}
+
+
+
+
+
+
+
