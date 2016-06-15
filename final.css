@@ -99,7 +99,6 @@ h4{
 	text-align: center;
 	min-height: 900px;
 	position:relative;
-	background-image: url(https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/85/851/851025/poly-background-white-o.jpg?1450172776);
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -107,7 +106,6 @@ h4{
 }
 .persona{
 	position: relative;
-	background-image: url(https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/85/851/851025/poly-background-white-o.jpg?1450172776);
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -116,7 +114,6 @@ h4{
 }
 .essence{
 	position:relative;
-	background-image: url(https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/85/851/851025/poly-background-white-o.jpg?1450172776);
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -125,7 +122,6 @@ h4{
 }
 .contact{
 	position:relative;
-	background-image: url(https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/85/851/851025/poly-background-white-o.jpg?1450172776);
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -389,6 +385,10 @@ h4{
 	margin-top: 46px;
 	margin-bottom: 650px;
 }
+
+
+.secname:hover
+
 
 
 
