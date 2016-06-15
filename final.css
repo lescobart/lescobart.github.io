@@ -65,7 +65,7 @@ h4{
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 1500px;
+    min-height: 1000px;
     z-index: 3;
 }	
 .photo2{
@@ -73,7 +73,7 @@ h4{
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 1500px;
+    min-height: 1000px;
     z-index: 3;
 }
 .photo3{
@@ -81,7 +81,7 @@ h4{
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 1500px;
+    min-height: 1000px;
     z-index: 3;
 }
 .photo4{
@@ -89,8 +89,9 @@ h4{
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 1500px;
+    min-height: 900px;
     z-index: 3;
+    position:relative;
 }
 
 
