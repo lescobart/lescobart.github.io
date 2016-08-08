@@ -54,12 +54,4 @@ h1{
 	text-align: center;
 	font-family: "stymie-dc-d",sans-serif;
 }
-p{
-	line-height: 1.6;
-	font-family: "casablanca-urw-n3", "casablanca-urw";
-	font-size: 20px;
-	font-weight: 300;
-	background-blending-mode:screen;
-	background: rgba(0,0,0,0.2);
-}
 
