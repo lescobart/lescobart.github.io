@@ -1,7 +1,7 @@
 html{
 	margin:0;
 	background-size: cover;
-	background: url("http://imgur.com/a/BabzF") no-repeat center center fixed;
+	background: url("lan1.jpg") no-repeat center center fixed;
 	background-blend-mode:darken;
 	transition: 3s;
 }
