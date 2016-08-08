@@ -19,6 +19,7 @@ body{
 	background: url("lan1.jpg");
 	background-repeat: no-repeat;
     	background-attachment: fixed;
+    	min-height:900px;
 
 }
 #about{
@@ -26,6 +27,7 @@ body{
 	background: url("lan1.jpg");
 	background-repeat: no-repeat;
     	background-attachment: fixed;
+    	min-height:900px;
 }
 
 #mvision{
@@ -33,20 +35,23 @@ body{
 	background: url("lan0.jpg");
 	background-repeat: no-repeat;
     	background-attachment: fixed;
+    	min-height:900px;
 }
 
 #work{
 	background-size: cover;
 	background: url("lan3.jpg");
 	background-repeat: no-repeat;
-    	background-attachment: fixed;	
+    	background-attachment: fixed;
+    	min-height:900px;
 }
 
 #contact{
 	background-size: cover;
 	background: url("lan4.jpg");
 	background-repeat: no-repeat;
-    	background-attachment: fixed;	
+    	background-attachment: fixed;
+    	min-height:900px;
 }
 
 
