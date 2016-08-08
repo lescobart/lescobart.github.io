@@ -12,7 +12,7 @@ body{
 	padding: 20px;
 	border:7px double rgba(255,255,255,0.5);
 	background: rgba(0,0,0,0.2);
-	font-family: "stymie-dc-d",sans-serif;
+
 }
 #landing{
 	margin:0;
@@ -20,20 +20,51 @@ body{
 	background: url("lan1.jpg");
 	background-repeat: no-repeat;
     	background-attachment: fixed;
-    	background-blend-mode:darken;
+
+}
+#about{
+	margin:0;
+	background-size: cover;
+	background: url("lan1.jpg");
+	background-repeat: no-repeat;
+    	background-attachment: fixed;
 }
 
+#mvision{
+	margin:0;
+	background-size: cover;
+	background: url("lan0.jpg");
+	background-repeat: no-repeat;
+    	background-attachment: fixed;
+}
+
+#work{
+	margin:0;
+	background-size: cover;
+	background: url("lan3.jpg");
+	background-repeat: no-repeat;
+    	background-attachment: fixed;	
+}
+
+#contact{
+	margin:0;
+	background-size: cover;
+	background: url("lan4.jpg");
+	background-repeat: no-repeat;
+    	background-attachment: fixed;	
+}
+
+
 h1{
-	margin-top: 0;
 	text-align: center;
+	font-family: "stymie-dc-d",sans-serif;
 }
 p{
 	line-height: 1.6;
 	font-family: "casablanca-urw-n3", "casablanca-urw";
 	font-size: 20px;
 	font-weight: 300;
+	background-blending-mode:screen;
+	background: rgba(0,0,0,0.2);
 }
 
-@media all and (max-width: 770px){
-	#landing{ display:none;}
-}
