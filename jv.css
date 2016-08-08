@@ -4,7 +4,7 @@ html{
 body{
 	margin: 0;
 }
-#landing{
+#biobox{
 	color:#fff;
 	width: 35%;
 	margin-top: 5%;
@@ -13,13 +13,16 @@ body{
 	border:7px double rgba(255,255,255,0.5);
 	background: rgba(0,0,0,0.2);
 	font-family: "stymie-dc-d",sans-serif;
+}
+#landing{
 	margin:0;
 	background-size: cover;
 	background: url("lan1.jpg");
 	background-repeat: no-repeat;
     	background-attachment: fixed;
-
+    	background-blend-mode:darken;
 }
+
 h1{
 	margin-top: 0;
 	text-align: center;
