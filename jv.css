@@ -1,62 +1,151 @@
-html{
-
-}
-body{
-	margin: 0;
-}
-#biobox{
-	color:#fff;
-	width: 35%;
+ #home{
+        padding: 50px;
+        background-image: url(http://i.imgur.com/ME50yMh.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+ #intro{
+	width: 30%;
 	margin-top: 5%;
 	margin-left: 5%;
-	padding: 20px;
-	border:7px double rgba(255,255,255,0.5);
-	background: rgba(0,0,0,0.2);
+	padding: 2rem;
+	border: 4px double rgba(253, 250, 255, 0.73);
+	background: rgba(0,0,0,0.3);
+	font-family: "casablanca-urw-n3","casablanca-urw", sans-serif;
+font-style: normal;
+font-weight: 300;
+	color:white;
+	font-size: 25px;
+    position: relative;
+    left: 700px;
+    animation: fadeInLeft 3s;
+ }
+h1 {
+  font-family: "stymie-dc-d";
+  font-size:72px;
+  color: white;
+  animation-name:fadeIn;
+  animation-duration:4s;
+  }
+  #mvision{
+        padding: 50px;
+        
+        background-color: #b7b7b7;
+    }
+    #copy{
+      width: 50%;
+  margin-top: 5%;
+  margin-left: 5%;
+  padding: 2rem;
+  border: 6px double rgba(253, 250, 255, 0.73);
+  background: rgba(0,0,0,0.3);
+  font-family: "casablanca-urw-n3","casablanca-urw", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color:white;
+  font-size: 25px;
+  position:relative;
+  left:200px;
+  text-align:center;
+  top: -50px;
+  animation:fadeInDown 3s;
+    }
+   #about{
+        padding: 50px;
+        background-image: url(http://i.imgur.com/ME50yMh.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #third{
+    width: 30%;
+	margin-top: 5%;
+	margin-left: 5%;
+	padding: 2rem;
+	border: 4px double rgba(253, 250, 255, 0.73);
+	background: rgba(0,0,0,0.3);
+	font-family: "casablanca-urw-n3","casablanca-urw", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color:white;
+	font-size: 25px;
+	position:relative;
+	left:700px;
+  text-align: right;
+  animation: fadeInLeft 3s;
+    }
+      #contact{
+        padding: 50px;
+        background-color: #b7b7b7;
+    }
+    #info{
+  width: 20%;
+  margin-top: 5%;
+  margin-left: 5%;
+  padding: 2rem;
+  border: 6px double rgba(253, 250, 255, 0.73);
+  background: rgba(0,0,0,0.3);
+  font-family: "casablanca-urw-n3","casablanca-urw", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color:white;
+  font-size: 25px;
+  position:relative;
+  left:450px;
+  text-align:center;
+    }
 
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity:0.5;
+  }
+  50%{
+    opacity:0;
+  }
+  75%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
 }
-#landing{
-	background-size: cover;
-	background: url("lan1.jpg");
-	background-repeat: no-repeat;
-    	background-attachment: fixed;
-    	min-height:900px;
 
+@keyframes fadeInLeft{
+  0%{
+    left: -990px;
+    opacity: 0;
+  }
+  50%{
+    left:80px;
+    opacity: 0.3;
+  }
+  75%{
+    left:480px;
+    opacity: 0.6;
+  }
+  100%{
+    left:700px;
+    opacity:1;
+  }
 }
-#about{
-	background-size: cover;
-	background: url("lan1.jpg");
-	background-repeat: no-repeat;
-    	background-attachment: fixed;
-    	min-height:900px;
+@keyframes fadeInDown{
+  0%{
+    top: -300px;
+    opacity: 0;
+  }
+  50%{
+    top:200px;
+    opacity: 0.3;
+  }
+  75%{
+    top:-100px;
+    opacity: 0.6;
+  }
+  100%{
+    top:-50px;
+    opacity:1;
+  }
 }
-
-#mvision{
-	background-size: cover;
-	background: url("lan0.jpg");
-	background-repeat: no-repeat;
-    	background-attachment: fixed;
-    	min-height:900px;
-}
-
-#work{
-	background-size: cover;
-	background: url("lan3.jpg");
-	background-repeat: no-repeat;
-    	background-attachment: fixed;
-    	min-height:900px;
-}
-
-#contact{
-	background-size: cover;
-	background: url("lan4.jpg");
-	background-repeat: no-repeat;
-    	background-attachment: fixed;
-    	min-height:900px;
-}
-
-
-h1{
-	text-align: center;
-	font-family: "stymie-dc-d",sans-serif;
-}
-
