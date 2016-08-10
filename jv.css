@@ -167,3 +167,12 @@ h1 {
     opacity:1;
   }
 }
+#logo{
+	    width: 20%;
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+    left: 200;
+    top: 228px;
+    opacity: 0.2;
+}
