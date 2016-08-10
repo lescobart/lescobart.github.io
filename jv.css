@@ -30,7 +30,7 @@ h1 {
   #mvision{
         padding: 50px;
         
-        background-color: #b7b7b7;
+        background-color: #ff8f00;
     }
     #copy{
       width: 50%;
@@ -48,7 +48,7 @@ h1 {
   left:200px;
   text-align:center;
   top: -50px;
-  animation:fadeInDown 3s;
+  animation:fadeInDown 3s ease-in ;
     }
    #about{
         padding: 50px;
@@ -71,11 +71,11 @@ h1 {
 	position:relative;
 	left:700px;
   text-align: right;
-  animation: fadeInLeft 3s;
+  animation: mondaLeft 3s ease-in 2s;
     }
       #contact{
         padding: 50px;
-        background-color: #b7b7b7;
+        background-color: #ff8f00;
     }
     #info{
   width: 20%;
@@ -131,6 +131,24 @@ h1 {
     opacity:1;
   }
 }
+@keyframes mondaLeft{
+    0%{
+    left: -990px;
+    opacity: 0;
+  }
+  50%{
+    left:80px;
+    opacity: 0.3;
+  }
+  75%{
+    left:480px;
+    opacity: 0.6;
+  }
+  100%{
+    left:700px;
+    opacity:1;
+  }
+}
 @keyframes fadeInDown{
   0%{
     top: -300px;
@@ -148,4 +166,14 @@ h1 {
     top:-50px;
     opacity:1;
   }
+}
+.logo:after{
+  content: "LEE-01.png";
+    width: 20%;
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+    left: 200;
+    top: 228px;
+    opacity: 0.2;
 }
