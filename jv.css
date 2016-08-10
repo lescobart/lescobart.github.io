@@ -71,7 +71,9 @@ h1 {
 	position:relative;
 	left:700px;
   text-align: right;
-  animation: mondaLeft 3s ease-in 2s;
+  animation: fadeInLeft 3s;
+  top:-15px;
+  animation-delay: 3s;
     }
       #contact{
         padding: 50px;
@@ -176,3 +178,4 @@ h1 {
     top: 228px;
     opacity: 0.2;
 }
+
