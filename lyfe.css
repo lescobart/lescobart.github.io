@@ -1,0 +1,130 @@
+.cls-1,
+.cls-10,
+.cls-11,
+.cls-12,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8,
+.cls-9 {
+  fill: none;
+  stroke-miterlimit: 10;
+}
+
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5 {
+  stroke: #000;
+}
+
+.cls-2 {
+  stroke-width: 2px;
+}
+
+.cls-3 {
+  stroke-width: 0.75px;
+}
+
+.cls-4 {
+  stroke-width: 0.96px;
+}
+
+.cls-5 {
+  stroke-width: 0.5px;
+}
+
+.cls-10,
+.cls-11,
+.cls-12,
+.cls-6,
+.cls-7,
+.cls-8,
+.cls-9 {
+  stroke: #231f20;
+}
+
+.cls-6 {
+  stroke-width: 20px;
+}
+
+.cls-7 {
+  stroke-width: 16px;
+}
+
+.cls-8 {
+  stroke-width: 19px;
+}
+
+.cls-9 {
+  stroke-width: 1px;
+}
+
+.cls-10 {
+  stroke-width: 0.95px;
+}
+
+.cls-11 {
+  stroke-width: 21.35px;
+}
+
+.cls-12 {
+  stroke-width: 9px;
+}
+
+rect {
+  stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+  animation: moov 10s infinite forwards;
+}
+
+line {
+  stroke-dasharray: 380;
+  stroke-dashoffset:380;
+  animation: moov 4s infinite forwards;
+}
+
+polyline {
+  stroke-dasharray: 2220;
+  stroke-dashoffset: 2220;
+  animation: moov 5s infinite forwards;
+}
+
+polygon{
+    stroke-dasharray: 750;
+  stroke-dashoffset: 750;
+  animation: moov 5s infinite forwards;
+}
+
+
+@keyframes moov {
+  to {
+    stroke-dashoffset: 0
+  }
+}
+svg{
+  position:absolute;
+  top: -41px;
+  width: 92%;
+  left: 61px;
+}
+img{
+  postion: absolute;
+  width:100%;
+  margin: 0top;
+  animation:upa 5s linear forwards;
+}
+
+@keyframes upa {
+
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
