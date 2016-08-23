@@ -79,7 +79,7 @@
 rect {
   stroke-dasharray: 700;
     stroke-dashoffset: 700;
-  animation: moov 10s infinite forwards;
+  animation: moov 6s infinite forwards;
 }
 
 line {
@@ -116,7 +116,7 @@ img{
   postion: absolute;
   width:100%;
   margin: 0top;
-  animation:upa 5s linear forwards;
+  animation:upa 6s linear forwards;
 }
 
 @keyframes upa {
