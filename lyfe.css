@@ -79,25 +79,25 @@
 rect {
   stroke-dasharray: 700;
     stroke-dashoffset: 700;
-  animation: moov 6s infinite forwards;
+  animation: moov 6s linear forwards;
 }
 
 line {
   stroke-dasharray: 380;
   stroke-dashoffset:380;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 polyline {
   stroke-dasharray: 2220;
   stroke-dashoffset: 2220;
-  animation: moov 5s infinite forwards;
+  animation: moov 5s linear forwards;
 }
 
 polygon{
     stroke-dasharray: 750;
   stroke-dashoffset: 750;
-  animation: moov 5s infinite forwards;
+  animation: moov 5s linear forwards;
 }
 
 
@@ -116,7 +116,7 @@ img{
   postion: absolute;
   width:100%;
   margin: 0top;
-  animation:upa 6s linear forwards;
+  animation:upa 8s linear forwards;
 }
 
 @keyframes upa {
