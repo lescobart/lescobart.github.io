@@ -100,7 +100,9 @@ polygon{
   animation: moov 5s linear forwards;
 }
 
-
+body{
+  background-color:#edad49;
+}
 @keyframes moov {
   to {
     stroke-dashoffset: 0
@@ -116,7 +118,7 @@ img{
   postion: absolute;
   width:100%;
   margin: 0top;
-  animation:upa 8s linear forwards;
+  animation:upa 5s linear forwards;
 }
 
 @keyframes upa {
