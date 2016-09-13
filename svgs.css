@@ -8,14 +8,15 @@
 }*/
 
 h1 {
-  font-family: "acroterion-jf",sans-serif;
+  font-family: "museo-slab",serif;
+  font-weight: 700;
   font-size:3em;
   text-align: center;
   margin:0 auto;
   }
 
 body{
-	background-color: gray;
+	background-color: aliceblue;
 }
 #feed {
   width: 900px;
