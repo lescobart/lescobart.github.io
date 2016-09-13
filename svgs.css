@@ -1,0 +1,204 @@
+/*.turbined{
+	background-color: gray;
+	width:1440px;
+}*/
+
+/*.fed{
+	background-color: orange;
+	width:1440px;
+}*/
+
+body{
+	background-color: orange;
+}
+#feed {
+  width: 900px;
+  position: absolute;
+  right: 200px;
+}
+
+.cls-1,
+.cls-10,
+.cls-11,
+.cls-12,
+.cls-13,
+.cls-14,
+.cls-15,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-8,
+.cls-9 {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+.cls-1,
+.cls-13 {
+  stroke-width: 16px;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+.cls-12,
+.cls-2 {
+  stroke-width: 12px;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+.cls-3 {
+  stroke-width: 11px;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+.cls-4 {
+  stroke-width: 7px;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+.cls-5,
+.cls-8 {
+  stroke-width: 3px;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+.cls-10,
+.cls-11,
+.cls-12,
+.cls-13,
+.cls-15,
+.cls-6,
+.cls-8,
+.cls-9 {
+  stroke-linecap: round;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+.cls-6 {
+  stroke-width: 8.97px;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+.cls-7 {
+  fill: #fff;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+.cls-9 {
+  stroke-width: 22.06px;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+.cls-10,
+.cls-14 {
+  stroke-width: 5px;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+.cls-11 {
+  stroke-width: 10px;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+.cls-15 {
+  stroke-width: 15px;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+path{
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+polyline{
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+circle{
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+ellipse{
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: moov 4s infinite forwards;
+}
+
+@keyframes moov {
+  to {
+    stroke-dashoffset: 0
+  }
+}
+
+
+#turbine {
+  width: 900px;
+  position: absolute;
+  right: 200px;
+}
+
+
+
+.cls-11,
+.cls-22,
+.cls-33 {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.cls-11 {
+  stroke-width: 5.97px;
+  stroke-dasharray: 4500;
+  stroke-dashoffset: 4500;
+  animation: moov 4s infinite forwards;
+}
+
+.cls-22 {
+  stroke-width: 3px;
+  stroke-dasharray: 2300;
+  stroke-dashoffset: 2300;
+  animation: moov 4s infinite forwards;
+}
+
+.cls-33 {
+  stroke-width: 4px;
+  stroke-dasharray: 5000;
+  stroke-dashoffset: 5000;
+  animation: moov 4s infinite forwards;
+}
