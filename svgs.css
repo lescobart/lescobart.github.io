@@ -8,7 +8,7 @@
 }*/
 
 h1 {
-  font-family: "viktor-script",sans-serif;
+  font-family: "museo-slab",serif;
   font-weight: 700;
   font-size:3em;
   text-align: center;
@@ -32,17 +32,17 @@ color:white;
 #caja2{
   font-family: "filson-soft",sans-serif;
   font-weight: 300;
-  width:500;
+  width:750px;
   z-index: 3;
   color: white;
-  background-color: lightgray;
+  background-color: rgba(74, 74, 74, 0.58);
   font-size: medium;
   padding:20px;
   border-radius: 10px;
   position:absolute;
-  top: 320px;
-  right:248px;
-  text-transform: uppercase;
+  top: 456px;
+  right:277px;
+  text-align: center;
 }
 
 body{
@@ -82,6 +82,13 @@ background-color:gray;
   animation: upa 5s linear forwards;
   border-radius:13px;
   margin:20 20 20 20;
+}
+
+#turbine {
+  width: 900px;
+  position: absolute;
+  right: 221px;
+  top:109px;
 }
 
 .cls-1,
@@ -245,15 +252,6 @@ ellipse{
     opacity:1;
   }
 }
-
-#turbine {
-  width: 900px;
-  position: absolute;
-  right: 217px;
-  top:85px;
-}
-
-
 
 .cls-11,
 .cls-22,
