@@ -29,11 +29,15 @@ background-color:gray;
 }
 
 #jet{
-	width:100%;
+	width:900px;
+	position:absolute;
+	right:200px;
 	animation: upa 5s linear forwards;
 }
 #vinyl{
-	width:100%;
+	width:900px;
+	position:absolute;
+	right:200px;
 	animation: upa 5s linear forwards;
 }
 
