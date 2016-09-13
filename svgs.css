@@ -13,16 +13,17 @@ h1 {
   font-size:3em;
   text-align: center;
   margin:0 auto;
+  color:skyblue;
   }
 
 body{
-	background-color: blue;
+	background-color: rgb(0, 135, 255);
 }
 #feed {
   width: 900px;
   position: absolute;
-  right: 200px;
-  top:700px;
+  right: 221px;
+  top:921px;
 }
 
 #audio{
@@ -41,6 +42,8 @@ background-color:gray;
 	position:absolute;
 	right:200px;
 	animation: upa 5s linear forwards;
+	border-radius:13px;
+	margin:20 20 20 20;
 }
 #vinyl{
 	width:900px;
@@ -48,6 +51,8 @@ background-color:gray;
 	right:200px;
 	top:700px;
 	animation: upa 5s linear forwards;
+	border-radius:13px;
+	margin:20 20 20 20;
 }
 
 .cls-1,
@@ -215,7 +220,8 @@ ellipse{
 #turbine {
   width: 900px;
   position: absolute;
-  right: 200px;
+  right: 221px;
+  top:178px;
 }
 
 
