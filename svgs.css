@@ -8,7 +8,7 @@
 }*/
 
 body{
-	background-color: red;
+	background-color: gray;
 }
 #feed {
   width: 900px;
@@ -189,6 +189,20 @@ ellipse{
   }
 }
 
+@keyframes upa{
+	0%{
+		opacity:0;
+	}
+	25%{
+		opacity: 0.2;
+	}
+	50%{
+		opacity: 0.3;
+	}
+	100{
+		opacity:1;
+	}
+}
 
 #turbine {
   width: 900px;
