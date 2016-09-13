@@ -27,6 +27,16 @@ width:100%;
 background-color:gray;
 
 }
+
+#jet{
+	width:100%;
+	animation: upa 5s linear forwards;
+}
+#vinyl{
+	width:100%;
+	animation: upa 5s linear forwards;
+}
+
 .cls-1,
 .cls-10,
 .cls-11,
@@ -46,7 +56,7 @@ background-color:gray;
   stroke-miterlimit: 10;
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 .cls-1,
@@ -54,7 +64,7 @@ background-color:gray;
   stroke-width: 16px;
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 .cls-12,
@@ -62,21 +72,21 @@ background-color:gray;
   stroke-width: 12px;
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 .cls-3 {
   stroke-width: 11px;
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 .cls-4 {
   stroke-width: 7px;
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 .cls-5,
@@ -84,7 +94,7 @@ background-color:gray;
   stroke-width: 3px;
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 .cls-10,
@@ -98,28 +108,28 @@ background-color:gray;
   stroke-linecap: round;
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 .cls-6 {
   stroke-width: 8.97px;
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 .cls-7 {
   fill: #fff;
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 .cls-9 {
   stroke-width: 22.06px;
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 .cls-10,
@@ -127,45 +137,45 @@ background-color:gray;
   stroke-width: 5px;
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 .cls-11 {
   stroke-width: 10px;
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 .cls-15 {
   stroke-width: 15px;
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 path{
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 polyline{
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 circle{
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 ellipse{
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 @keyframes moov {
@@ -196,19 +206,19 @@ ellipse{
   stroke-width: 5.97px;
   stroke-dasharray: 4500;
   stroke-dashoffset: 4500;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 .cls-22 {
   stroke-width: 3px;
   stroke-dasharray: 2300;
   stroke-dashoffset: 2300;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
 
 .cls-33 {
   stroke-width: 4px;
   stroke-dasharray: 5000;
   stroke-dashoffset: 5000;
-  animation: moov 4s infinite forwards;
+  animation: moov 4s linear forwards;
 }
