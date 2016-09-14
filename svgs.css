@@ -7,14 +7,26 @@
   width:100%;
 }*/
 
-h1 {
-  font-family: "museo-slab",serif;
+#jetengine {
+  font-family: "viktor-script",sans-serif;
   font-weight: 700;
   font-size:3em;
   text-align: center;
   margin:0 auto;
   color:skyblue;
   }
+
+#lp{
+  font-family: "viktor-script",sans-serif;
+  font-weight: 700;
+  font-size:3em;
+  text-align: center;
+  margin:0 auto;
+  color:skyblue;
+  position: absolute;
+  top: 827px;
+  right: 604px;
+}
 
 /*#caja1{
 font-family: "filson-soft",sans-serif;
@@ -41,8 +53,31 @@ color:white;
   border-radius: 10px;
   position:absolute;
   top: 456px;
-  right:277px;
-  text-align: center;
+  right:1500px;
+  text-align: center; 
+  animation: swipe;
+  animation-duration: 3s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+#caja3{
+  font-family: "filson-soft",sans-serif;
+  font-weight: 300;
+  width:750px;
+  z-index: 3;
+  color: white;
+  background-color: rgba(74, 74, 74, 0.58);
+  font-size: medium;
+  padding:20px;
+  border-radius: 10px;
+  position:absolute;
+  top: 1400px;
+  right:1500px;
+  text-align: center; 
+  animation: swipe;
+  animation-duration: 3s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
 }
 
 body{
@@ -51,8 +86,8 @@ body{
 #feed {
   width: 900px;
   position: absolute;
-  right: 221px;
-  top:721px;
+  right: 220px;
+  top:1021px;
 }
 
 #audio{
@@ -78,7 +113,7 @@ background-color:gray;
   width:900px;
   position:absolute;
   right:200px;
-  top:700px;
+  top:1000px;
   animation: upa 5s linear forwards;
   border-radius:13px;
   margin:20 20 20 20;
@@ -87,8 +122,17 @@ background-color:gray;
 #turbine {
   width: 900px;
   position: absolute;
-  right: 221px;
+  right: 220px;
   top:109px;
+}
+
+@keyframes swipe {
+  0%{
+    right:1500px;
+  }
+  100%{
+    right:277px;
+  }
 }
 
 .cls-1,
@@ -252,6 +296,10 @@ ellipse{
     opacity:1;
   }
 }
+
+
+
+
 
 .cls-11,
 .cls-22,
