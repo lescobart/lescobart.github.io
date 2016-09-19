@@ -74,12 +74,12 @@ color:white;
   top: 1400px;
   right:1500px;
   text-align: center; 
+}
+#caja3.animate{
   animation: swipe;
   animation-duration: 3s;
-  animation-delay: 6s;
   animation-fill-mode: forwards;
 }
-
 body{
   background-color: rgb(0, 135, 255);
 }
@@ -114,11 +114,12 @@ background-color:gray;
   position:absolute;
   right:200px;
   top:1000px;
-  animation: upa 5s linear forwards;
   border-radius:13px;
   margin:20 20 20 20;
 }
-
+#vinyl.animate{
+    animation: upa 5s linear forwards;
+}
 #turbine {
   width: 900px;
   position: absolute;
@@ -131,7 +132,7 @@ background-color:gray;
     right:1500px;
   }
   100%{
-    right:277px;
+    right:545px;
   }
 }
 
