@@ -48,8 +48,14 @@
   element: document.getElementById('dj'),
   handler: function(direction) {
     console.log('Scrolled to waypoint!');
+    if (direction == 'down'){
     document.getElementById("vinyl").classList.add('animate');
     document.getElementById("caja3").classList.add('animate');
+      
+    }
+    else if (direction == 'up'){
+    document.getElementById("vinyl").className = "hidden";
+    }
   }
 })
 </script>
