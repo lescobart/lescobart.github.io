@@ -122,7 +122,7 @@ background-color:gray;
   margin:20 20 20 20;
 }
 #vinyl.animate{
-    animation: upa 5s linear forwards;
+    animation: upa 2s linear forwards;
 }
 
 #vinyl.animate.reverse{
