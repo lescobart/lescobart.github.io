@@ -120,6 +120,11 @@ background-color:gray;
 #vinyl.animate{
     animation: upa 5s linear forwards;
 }
+
+#vinyl.animate.reverse{
+  animation-direction: reverse;
+}
+
 #turbine {
   width: 900px;
   position: absolute;
