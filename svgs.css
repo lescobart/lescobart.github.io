@@ -101,6 +101,10 @@ background-color:gray;
 
 }
 
+#avion{
+  min-height:650px;
+}
+
 #jet{
   width:900px;
   position:absolute;
