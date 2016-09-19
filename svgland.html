@@ -4,7 +4,7 @@
   
 <script src="https://use.typekit.net/dow2qrg.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
 </head>
 <link rel="stylesheet" type="text/css" href="svgs.css">
 
@@ -44,4 +44,13 @@
 </section>
 
 </body>
+<script>var waypoint = new Waypoint({
+  element: document.getElementById('dj'),
+  handler: function(direction) {
+    console.log('Scrolled to waypoint!');
+    document.getElementById("vinyl").classList.add('animate');
+    document.getElementById("caja3").classList.add('animate');
+  }
+})
+</script>
 </html>
