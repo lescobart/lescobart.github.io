@@ -126,7 +126,16 @@ background-color:gray;
 }
 
 #vinyl.animate.reverse{
-  animation-direction: reverse;
+  animation: reversal 2s linear forwards;
+}
+
+@keyframes reversal{
+  0%{
+    opacity:1;
+  }
+  100%{
+    opacity:0;
+  }
 }
 
 #turbine {
